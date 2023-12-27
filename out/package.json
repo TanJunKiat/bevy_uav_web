@@ -1,0 +1,16 @@
+{
+  "name": "bevy_project",
+  "version": "0.1.0",
+  "files": [
+    "bevy_project_bg.wasm",
+    "bevy_project.js",
+    "bevy_project_bg.js",
+    "bevy_project.d.ts"
+  ],
+  "module": "bevy_project.js",
+  "types": "bevy_project.d.ts",
+  "sideEffects": [
+    "./bevy_project.js",
+    "./snippets/*"
+  ]
+}
